@@ -34,14 +34,14 @@ class App extends Component {
         whatCanYouDo: false,
         whoCanJoin: false,
         contact: false
-      },()=> window.scrollTo(0,document.getElementById('WhoAreWe').offsetTop-80)); break;
+      },()=> window.scrollTo(0,document.getElementById('WhoAreWe').offsetTop-60)); break;
       case 'initiative': this.setState({
         home: false,
         initiative: true,
         whatCanYouDo: false,
         whoCanJoin: false,
         contact: false
-      },()=> window.scrollTo(0,document.getElementById('initiatives').offsetTop-80)); break;
+      },()=> window.scrollTo(0,document.getElementById('initiatives').offsetTop-60)); break;
       case 'whatCanYouDo': this.setState({
         home: false,
         initiative: false,
@@ -55,14 +55,14 @@ class App extends Component {
         whatCanYouDo: false,
         whoCanJoin: true,
         contact: false
-      },()=> window.scrollTo(0,document.getElementById('whoCanJoinUs').offsetTop-80)); break;
+      },()=> window.scrollTo(0,document.getElementById('whoCanJoinUs').offsetTop-60)); break;
       case 'contact': this.setState({
         home: false,
         initiative: false,
         whatCanYouDo: false,
         whoCanJoin: false,
         contact: true
-      },()=> window.scrollTo(0,document.getElementById('contact').offsetTop-80)); break;
+      },()=> window.scrollTo(0,document.getElementById('contact').offsetTop-60)); break;
 
     }
    
@@ -71,7 +71,7 @@ class App extends Component {
     return (
       <div id="App">
         <div id="sideNavContainer">
-          <Sidebar sideNav={this.state.sideNav} handleDrawerOpen={this.handleDrawerOpen} />
+          <Sidebar sideNav={this.state.sideNav} handleDrawerOpen={this.handleDrawerOpen} scroll={this.scroll} state={this.state} />
         </div>
         <Header handleDrawerOpen={this.handleDrawerOpen} scroll={this.scroll} state={this.state} />
         <WhoAreWe />

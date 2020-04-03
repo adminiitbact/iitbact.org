@@ -10,7 +10,8 @@ const WhoCanJoinUs=()=>{
                     </div>
                     <div className="col-md-6">
                     <h1 className="sectionHeading">Who can join us?</h1>
-                        <p className="sectionPara">Anyone who wants to, you don’t have to be from IIT  Bombay to do this. It is just our belief that we will tap the IIT Bombay network before tapping other bigger networks. It helps streamline things.</p>
+                        <p className="sectionPara">Anyone who wants to, you DON’T have to be from IIT Bombay to do this. We have named the group IIT B ACT because we believe that there is a lot of value we can extract out of tapping into the IIT Bombay network of students and alumni. The skills we are currently looking for: web developers, software engineers, designers, marketing experts, supply-chain management experts, entrepreneurs, manufacturing enthusiasts, social workers, data scientists, economists, biomedical engineers, doctors and the list goes on and on. Everyone adds value to our collective!
+</p>
                    
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import foodDistribution from '../assets/images/foodDistribution.jpg';
 import webD from '../assets/images/webD.svg';
-import fund from '../assets/images/fund.svg';
+import fund from '../assets/images/fund.jpg';
 import vente from '../assets/images/vente.jpg';
 import mask from '../assets/images/mask.svg';
 const Initiatives = () => {
@@ -18,9 +18,7 @@ const Initiatives = () => {
                             </div>
                             <div className="col-8 initiativeTileDetail">
                                 <h3 className="initiativeTileHeading">Food distribution</h3>
-                                <p className="initiativeTileDesc">-To Migrant Workers (Central & South Delhi) <br/>
-                                -To Daily Wage Workers / Needy Groups (Vadodara Region)
-                                </p>
+                                <p className="initiativeTileDesc">Concerned citizens who are focused ensuring that no one goes to sleep on an empty stomach </p>
                             </div>
                         </div>
                         </div>
@@ -33,8 +31,7 @@ const Initiatives = () => {
                             </div>
                             <div className="col-8 initiativeTileDetail">
                                 <h3 className="initiativeTileHeading">Ventilators</h3>
-                                <p className="initiativeTileDesc">low-cost ventilator based on open source designs around the world
-                                </p>
+                                <p className="initiativeTileDesc">Supporting the manufacturing of ventilators by sourcing parts and pipeline</p>
                             </div>
                         </div>
                         </div>
@@ -46,10 +43,8 @@ const Initiatives = () => {
                                 <img src={mask} />
                             </div>
                             <div className="col-8 initiativeTileDetail">
-                                <h3 className="initiativeTileHeading">Masks /Sanitizers /Health equipments</h3>
-                                <p className="initiativeTileDesc">-Integrated Face Shield + N95 Mask Manufacturing <br/>
-                                -Ozone Disinfection System
-                                </p>
+                                <h3 className="initiativeTileHeading">Marketing and Sales</h3>
+                                <p className="initiativeTileDesc">Working on finding destinations for masks, PPEs and ventilators </p>
                             </div>
                         </div>
                         </div>
@@ -61,8 +56,8 @@ const Initiatives = () => {
                                 <img src={fund} />
                             </div>
                             <div className="col-8 initiativeTileDetail">
-                                <h3 className="initiativeTileHeading">Fundraising for social initiatives</h3>
-                                <p className="initiativeTileDesc">
+                                <h3 className="initiativeTileHeading">Fundraising </h3>
+                                <p className="initiativeTileDesc">Tapping into alumni network and public funds to fuel initatives
                                 </p>
                             </div>
                         </div>
@@ -75,10 +70,8 @@ const Initiatives = () => {
                                 <img src={webD} />
                             </div>
                             <div className="col-8 initiativeTileDetail">
-                                <h3 className="initiativeTileHeading">Web Development efforts</h3>
-                                <p className="initiativeTileDesc">-Post on Social Media<br/>
-                                -Content Preparation <br/>
-                                -Promotions/Ads on Facebook/Insta
+                                <h3 className="initiativeTileHeading">Web Development</h3>
+                                <p className="initiativeTileDesc">Providing digital and analytics support to local administration
                                 </p>
                             </div>
                         </div>

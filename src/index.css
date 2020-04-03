@@ -2,9 +2,11 @@ body{
   margin: 0px;
   padding: 0px;
   color: #50658e;
-  font-family: 'Patua One', cursive;
+  font-family: 'PT Sans', sans-serif;
+
 
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,8 +27,13 @@ img{
   height: 100%;
 }
 .sectionContainer{
-  padding: 70px 0px;
+  padding: 30px 0px;
+
   height: 100%;
+}
+.sectionContainer>div{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .sectionHeading{
   font-size: 40px;
@@ -56,6 +63,7 @@ img{
   text-align: center;
 }
 
+
 /* -----------------------------------------header----------------------------------- */
 #headerLogo{
 height: 80px;
@@ -83,7 +91,7 @@ width: 100px;
 /* --------------------------------------------WhoAreWe--------------------------------------- */
 
 #WhoAreWe{
-  margin-top: 97px;
+  margin-top: 60px;
   background-image: url(./assets/images/aboutBackground.png);
   size: 100%;
   background-repeat: no-repeat;
@@ -105,7 +113,7 @@ width: 100px;
 }
 /* ----------------------------------------------whoCanJoin--------------------------------------- */
 #whoCanJoinUs{
-  background-image: url(./assets/images/testBack.png);
+  /* background-image: url(./assets/images/testBack.png); */
   size: 100% 100%;
   background-repeat: no-repeat;
   background-position:center;
@@ -122,7 +130,6 @@ width: 100px;
 }
 .initiativeTile{
   text-align: left;
-  margin-top: 30px;
   font-family: 'Slabo 27px', serif;
  
 }
@@ -165,4 +172,41 @@ color:#50658E;
 #contact{
   text-align: center;
   background-color: #F7F9FE;
+  overflow: hidden;
+ 
+}
+@media(max-width:420px){
+#contactForm{
+  padding-right: 10%;
+}
+#contact1 Button{
+  font-size: 10px !important;
+}
+#contact h3{
+  margin: 5px !important;
+}
+}
+#contact h3{
+  color:#50658E;
+  margin:20px 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+#contact1{
+  text-align: center;
+}
+#contact1 button{
+  width: 50%;
+  margin: 15px;
+}
+#contact1 div{
+  width: 100%;
+}
+#contact1 Button:hover{
+  box-shadow: none !important;
+}
+#contact1 Button{
+  box-shadow: none !important;
 }

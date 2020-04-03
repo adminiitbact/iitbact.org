@@ -109,12 +109,12 @@ export default function Header(props) {
             >
               <MenuIcon />
             </IconButton></Tooltip>
-          <div className={classes.title} variant="h6" noWrap>
+          {/* <div className={classes.title} variant="h6" noWrap>
             <div id="headerLogo">
               <img src={webLogo} />
             </div>
 
-          </div>
+          </div> */}
 
           {/* <div className={classes.grow} /> */}
           <div className={classes.sectionDesktop}>
@@ -129,7 +129,7 @@ export default function Header(props) {
                 color="inherit">
 
                 <Typography variant="h6" className={classes.navTitleContent} >
-                  Home
+                  Org
           </Typography>
 
               </IconButton>
