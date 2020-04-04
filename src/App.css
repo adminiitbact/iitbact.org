@@ -22,8 +22,21 @@
   margin-top: 3em;
   width: auto ;
 }
+.makeStyles-menuButton-17 {
+  color: #556a91 !important;
+  /* margin-right: 32px; */
+}
+.makeStyles-margin-2{
+  color: #556a91 !important;
+}
 @media screen and (max-width: 680px) {
   /* For mobile phones: */
+  .sectionHeading{
+    text-align: center;
+  }
+  h3{
+    margin-bottom: 0 !important;
+  }
   .sectionContainer{
     padding: 4em 0px;
   }

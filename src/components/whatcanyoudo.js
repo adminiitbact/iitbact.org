@@ -6,7 +6,7 @@ const WhatCanYouDo = () => {
         <h1 className="sectionHeading" style={{ marginTop: "0" }}>
           What can you do?
         </h1>
-        <p className="sectionPara">
+        <p className="sectionPara" style={{margin:'30px 20px'}}>
           <b>Join us!</b> We welcome your skilled efforts and financial help.
           <br></br> As long as you reach out to us we will try to ensure that we
           find you the right fit. We take placing you with the right project as

@@ -115,7 +115,20 @@ export default function Header(props) {
           >
             <div>
               {/* <img src={webLogo} alt="logo"/> */}
-              <h3 style={{ color: "#50658e",letterSpacing:'3px' }}>IITBACT</h3>
+              <IconButton
+                className={
+                  props.state.home ? classes.navTitleActive : classes.navTitle
+                }
+                onClick={() => props.scroll("home")}
+                style={{ backgroundColor: "transparent", margin: " 0px 8px" }}
+                color="inherit"
+                edge="start"
+                aria-haspopup="true"
+              >
+                <h3 style={{ color: "#50658e", letterSpacing: "3px" }}>
+                  IITBACT
+                </h3>
+              </IconButton>
             </div>
           </div>
 
@@ -156,7 +169,7 @@ export default function Header(props) {
               aria-haspopup="true"
               onClick={() => props.scroll("initiative")}
               color="inherit"
-              style={{ backgroundColor: "transparent" }}
+              style={{ backgroundColor: "transparent", margin: " 0px 8px" }}
             >
               <Typography variant="h6" className={classes.navTitleContent}>
                 Our Initiatives
@@ -165,7 +178,7 @@ export default function Header(props) {
 
             <IconButton
               edge="start"
-              style={{ backgroundColor: "transparent" }}
+              style={{ backgroundColor: "transparent", margin: " 0px 8px" }}
               className={
                 props.state.whoCanJoin
                   ? classes.navTitleActive
@@ -182,7 +195,7 @@ export default function Header(props) {
             </IconButton>
             <IconButton
               edge="start"
-              style={{ backgroundColor: "transparent" }}
+              style={{ backgroundColor: "transparent", margin: " 0px 8px" }}
               className={
                 props.state.whatCanYouDo
                   ? classes.navTitleActive
@@ -199,7 +212,7 @@ export default function Header(props) {
             </IconButton>
 
             <IconButton
-              style={{ backgroundColor: "transparent" }}
+              style={{ backgroundColor: "transparent", margin: " 0px 8px" }}
               edge="start"
               aria-label="account of current user"
               className={
