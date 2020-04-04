@@ -1,0 +1,65 @@
+.makeStyles-headerSpace-16 {
+  padding: 15px 40px !important;
+}
+.jss16 {
+  padding: 15px 40px !important;
+}
+.container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.headersection {
+  flex: auto;
+  display: block;
+  text-align: right;
+}
+.whoweare {
+  margin-top: 4em;
+  margin-left: 4em;
+  width: auto;
+}
+.whocanjoinusimg{
+  margin-top: 3em;
+  width: auto ;
+}
+@media screen and (max-width: 680px) {
+  /* For mobile phones: */
+  .sectionContainer{
+    padding: 4em 0px;
+  }
+  .headersection {
+    display: none;
+  }
+  .whoweare  {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whocanjoinusimg {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .initiativeTileImg{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+  }
+  .sectionHeading{
+    font-size: 35px;;
+  }
+  h3{
+    font-size: 1.4rem !important;
+  }
+  .initiativeTileDesc{
+    font-size: 0.9em;
+  }
+  .sectionPara{
+    font-size: 0.9em;
+    line-height: 25px;
+  }
+}
