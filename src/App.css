@@ -18,32 +18,38 @@
   margin-left: 4em;
   width: auto;
 }
-.whocanjoinusimg{
+.whocanjoinusimg {
   margin-top: 3em;
-  width: auto ;
+  width: 100%;
 }
 .makeStyles-menuButton-17 {
   color: #556a91 !important;
   /* margin-right: 32px; */
 }
-.makeStyles-margin-2{
+.jss17 {
+  color: #556a91 !important;
+}
+.makeStyles-margin-2 {
+  color: #556a91 !important;
+}
+.jss2 {
   color: #556a91 !important;
 }
 @media screen and (max-width: 680px) {
   /* For mobile phones: */
-  .sectionHeading{
+  .sectionHeading {
     text-align: center;
   }
-  h3{
+  h3 {
     margin-bottom: 0 !important;
   }
-  .sectionContainer{
-    padding: 4em 0px;
+  .sectionContainer {
+    padding: 3em 0px;
   }
   .headersection {
     display: none;
   }
-  .whoweare  {
+  .whoweare {
     margin-top: 0;
     margin-left: 0;
     width: 100%;
@@ -57,22 +63,23 @@
     height: 100%;
     object-fit: contain;
   }
-  .initiativeTileImg{
+  .initiativeTileImg {
     width: 100%;
     height: 100px;
     object-fit: contain;
   }
-  .sectionHeading{
-    font-size: 35px;;
+  .sectionHeading {
+    font-size: 35px;
   }
-  h3{
+  h3 {
     font-size: 1.4rem !important;
   }
-  .initiativeTileDesc{
+  .initiativeTileDesc {
     font-size: 0.9em;
   }
-  .sectionPara{
+  .sectionPara {
     font-size: 0.9em;
     line-height: 25px;
+    text-align: center;
   }
 }
