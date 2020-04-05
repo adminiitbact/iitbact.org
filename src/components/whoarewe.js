@@ -1,5 +1,5 @@
 import React from "react";
-import whoImg from "../assets/images/whoImg.png";
+import whoImg from "../assets/images/download.png";
 const WhoAreWe = () => {
   return (
     <div id="WhoAreWe">

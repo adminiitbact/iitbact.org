@@ -1,9 +1,9 @@
 import React from "react";
 import foodDistribution from "../assets/images/foodDistribution.jpg";
-import webD from "../assets/images/webD.svg";
+import webD from "../assets/images/web development.svg";
 import fund from "../assets/images/fund.jpg";
 import vente from "../assets/images/vente.jpg";
-import mask from "../assets/images/mask.svg";
+import mask from "../assets/images/market.png";
 const Initiatives = () => {
   return (
     <div id="initiatives">
@@ -54,7 +54,11 @@ const Initiatives = () => {
             <div>
               <div className="row">
                 <div className="col-4 initiativeTileImg">
-                  <img src={mask} />
+                  <img
+                    src={mask}
+                    alt='market'
+                    style={{ width: "100%", objectFit: "cover" }}
+                  />
                 </div>
                 <div className="col-8 initiativeTileDetail">
                   <h3 className="initiativeTileHeading">Marketing and Sales</h3>
@@ -88,7 +92,7 @@ const Initiatives = () => {
             <div>
               <div className="row">
                 <div className="col-4 initiativeTileImg">
-                  <img src={webD} />
+                  <img src={webD} style={{width:'95%',marginLeft:'10px'}} alt="web dev"/>
                 </div>
                 <div className="col-8 initiativeTileDetail">
                   <h3 className="initiativeTileHeading">Web Development</h3>

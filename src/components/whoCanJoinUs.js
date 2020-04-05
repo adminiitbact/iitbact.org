@@ -1,5 +1,5 @@
 import React from "react";
-import whyDoThis from "../assets/images/whyDoThis.png";
+import whyDoThis from "../assets/images/download (1).png";
 const WhoCanJoinUs = () => {
   return (
     <div id="whoCanJoinUs">
@@ -9,7 +9,7 @@ const WhoCanJoinUs = () => {
             <div>
               <img
                 className="whocanjoinusimg"
-                // style={{ marginTop: "3em",width: 'auto' }}
+                // style={{  }}
                 src={whyDoThis}
                 alt="who can join us"
               />
