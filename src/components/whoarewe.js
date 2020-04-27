@@ -9,7 +9,7 @@ const WhoAreWe = () => {
             <h1 className="sectionHeading">Who are we?</h1>
             <p className="sectionPara">
               We are a collective of concerned IIT Bombay alumni trying to make
-              a dent in the fight against COVID_19.
+              a dent in the fight against COVID19.
               <br /> We belong to different walks of life: engineering,
               government administration, business and manufacturing.
               <br />
