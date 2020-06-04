@@ -24,7 +24,7 @@ jobs:
       run: cat /home/runner/.npm/_logs/*
     
     - name: List build directory
-      run: ls -R dist/
+      run: ls -R build/
     
     - name: Upload to S3
       uses: jakejarvis/s3-sync-action@v0.5.1
@@ -35,7 +35,7 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_key }}
         AWS_REGION: 'ap-south-1'
-        SOURCE_DIR: 'dist'
+        SOURCE_DIR: 'build'
         DEST_DIR: ''
 
     - name: Invalidate cache
