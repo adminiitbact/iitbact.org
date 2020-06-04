@@ -20,7 +20,7 @@ const Initiatives = () => {
             <div>
               <div className="row">
                 <div className="col-4 initiativeTileImg">
-                  <img src={foodDistribution} />
+                  <img alt='food' src={foodDistribution} />
                 </div>
                 <div className="col-8 initiativeTileDetail">
                   <h3 className="initiativeTileHeading">Food distribution</h3>
@@ -37,7 +37,7 @@ const Initiatives = () => {
             <div>
               <div className="row">
                 <div className="col-4 initiativeTileImg">
-                  <img src={vente} />
+                  <img alt='ventilators' src={vente} />
                 </div>
                 <div className="col-8 initiativeTileDetail">
                   <h3 className="initiativeTileHeading">Ventilators</h3>
@@ -75,7 +75,7 @@ const Initiatives = () => {
             <div>
               <div className="row">
                 <div className="col-4 initiativeTileImg">
-                  <img src={fund} />
+                  <img alt='fund' src={fund} />
                 </div>
                 <div className="col-8 initiativeTileDetail">
                   <h3 className="initiativeTileHeading">Fundraising </h3>

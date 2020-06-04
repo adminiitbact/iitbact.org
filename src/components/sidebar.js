@@ -5,11 +5,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InfoIcon from "@material-ui/icons/Info";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
-import HelpIcon from "@material-ui/icons/Help";
-import PlaylistAddCheckIcon from "@material-ui/icons/PlaylistAddCheck";
-import webLogo from "../assets/images/techact.png";
 const useStyles = makeStyles((theme) => ({
   spacing: {
     margin: theme.spacing(1),
