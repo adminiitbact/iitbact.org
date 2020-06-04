@@ -1,0 +1,48 @@
+name: Prod CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Yarn Install Dependencies
+      uses: CultureHQ/actions-yarn@v1.0.1
+      with:
+        args: install
+    
+    - name: npm run build-prod
+      run: npm run build
+
+    - name: Log npm errors
+      if: failure()
+      run: cat /home/runner/.npm/_logs/*
+    
+    - name: List build directory
+      run: ls -R dist/
+    
+    - name: Upload to S3
+      uses: jakejarvis/s3-sync-action@v0.5.1
+      with:
+        args: --acl public-read --delete
+      env:
+        AWS_S3_BUCKET: 'org.iitbact'
+        AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_key }}
+        AWS_REGION: 'ap-south-1'
+        SOURCE_DIR: 'dist'
+        DEST_DIR: ''
+
+    - name: Invalidate cache
+      uses: chetan/invalidate-cloudfront-action@v1.2
+      env:
+        DISTRIBUTION: ${{ secrets.cloudfront_dist_prod }}
+        PATHS: '/*'
+        AWS_REGION: 'ap-south-1'
+        AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_key }}
