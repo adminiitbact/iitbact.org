@@ -23,7 +23,7 @@ const Contact = () => {
                 // className={classes.button}
                 // startIcon={<DeleteIcon />}
               >
-                IITBACT.ORG
+                TECHACT.ORG
               </Button>
               <Button
                 variant="contained"

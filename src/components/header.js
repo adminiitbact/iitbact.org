@@ -1,19 +1,10 @@
 import React from "react";
-import { fade, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import InputBase from "@material-ui/core/InputBase";
-import Badge from "@material-ui/core/Badge";
-import MenuItem from "@material-ui/core/MenuItem";
-import Menu from "@material-ui/core/Menu";
 import MenuIcon from "@material-ui/icons/Menu";
-import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
-import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
-import SearchIcon from "@material-ui/icons/Search";
-import webLogo from "../assets/images/iitbact.png";
-import MoreIcon from "@material-ui/icons/MoreVert";
 import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles((theme) => ({
@@ -126,7 +117,7 @@ export default function Header(props) {
                 aria-haspopup="true"
               >
                 <h3 style={{ color: "#50658e", letterSpacing: "3px" }}>
-                  IITBACT
+                  TECHACT
                 </h3>
               </IconButton>
             </div>
@@ -154,7 +145,7 @@ export default function Header(props) {
               style={{ backgroundColor: "transparent" }}
             >
               <Typography variant="h6" className={classes.navTitleContent}>
-                <h3>IITBACT</h3>
+                <h3>TECHACT</h3>
               </Typography>
             </IconButton> */}
 

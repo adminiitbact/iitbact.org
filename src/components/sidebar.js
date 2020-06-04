@@ -9,7 +9,7 @@ import InfoIcon from "@material-ui/icons/Info";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import HelpIcon from "@material-ui/icons/Help";
 import PlaylistAddCheckIcon from "@material-ui/icons/PlaylistAddCheck";
-import webLogo from "../assets/images/webLogo.png";
+import webLogo from "../assets/images/techact.png";
 const useStyles = makeStyles((theme) => ({
   spacing: {
     margin: theme.spacing(1),
